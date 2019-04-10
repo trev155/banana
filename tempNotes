@@ -2,3 +2,8 @@ https://stackoverflow.com/questions/31388087/how-to-merge-two-more-remote-branch
 
 No, in general you cannot merge on the server by git itself. You can do Pull Requests (or merge requests) on some git services (like github, atlassian stash, etc), which can be eventually merged, provided there are no conflicts, 
 but at your workflow you will be better off by merging on your local. 
+
+
+git merge <feature-branch>
+- the branch you want to merge TO is the one you are currently on
+- this will bring in the changes of feature-branch into the current branch
